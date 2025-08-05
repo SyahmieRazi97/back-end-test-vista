@@ -5,5 +5,3 @@ const router = Router();
 
 router.post("/", createCompany);
 router.get("/", getCompanies);
-
-export default router;
