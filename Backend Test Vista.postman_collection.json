@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "0a610bb6-a739-45bb-a5eb-306f2f9ed183",
+		"name": "Backend Test Vista",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42413901"
+	},
+	"item": [
+		{
+			"name": "registerCompany",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Vista Company\",\r\n    \"registrationNumber\": \"000001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cautious-invention-4j645r4g64q9hg6j-5000.app.github.dev/companies",
+					"protocol": "https",
+					"host": [
+						"cautious-invention-4j645r4g64q9hg6j-5000",
+						"app",
+						"github",
+						"dev"
+					],
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRegisterCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cautious-invention-4j645r4g64q9hg6j-5000.app.github.dev/companies",
+					"protocol": "https",
+					"host": [
+						"cautious-invention-4j645r4g64q9hg6j-5000",
+						"app",
+						"github",
+						"dev"
+					],
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "detailServiceCompany",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mobile Application\",\r\n  \"description\": \"Creating Mobile Apps\",\r\n  \"price\": 4000,\r\n  \"companyId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cautious-invention-4j645r4g64q9hg6j-5000.app.github.dev/services",
+					"protocol": "https",
+					"host": [
+						"cautious-invention-4j645r4g64q9hg6j-5000",
+						"app",
+						"github",
+						"dev"
+					],
+					"path": [
+						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDetailServiceCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cautious-invention-4j645r4g64q9hg6j-5000.app.github.dev/services/1",
+					"protocol": "https",
+					"host": [
+						"cautious-invention-4j645r4g64q9hg6j-5000",
+						"app",
+						"github",
+						"dev"
+					],
+					"path": [
+						"services",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
