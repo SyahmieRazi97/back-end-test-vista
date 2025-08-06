@@ -1,5 +1,7 @@
 # back-end-test-vista
 
+---
+
 This is the backend API for managing companies and services.  
 Built with **Node.js**, **TypeScript**, **Express**, **Prisma**, and **MySQL** (Railway DB).
 
